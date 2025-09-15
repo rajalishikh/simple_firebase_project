@@ -2,9 +2,10 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
-        <div>
+        <div >
             <Link to={'/'}>Home</Link>
             <Link to={'/Dashboard'}>DashBoard</Link>
+            <Link to={"/login"}>Login</Link>
             
         </div>
     );
